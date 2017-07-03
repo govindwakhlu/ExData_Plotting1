@@ -16,6 +16,6 @@ plot2 <- function() {
 
 	#Plot graph
 	png(filename = "plot2.png", width = 480, height = 480)
-	plot(tidy_power_consumption$singledatetime,tidy_power_consumption$Global_active_power,type="l",ylab="Global Active Power 	(kilowatts)",xlab="")
+	plot(tidy_power_consumption$singledatetime,tidy_power_consumption$Global_active_power,type="l",ylab="Global Active Power (kilowatts)",xlab="")
 	dev.off()
 }
